@@ -1,15 +1,49 @@
 body {
   background-color: HoneyDew;
-  margin: 20px;
+  margin: 40px;
 }
 h1 {
-  color: SeaGreen
+  color: SeaGreen;
+}
+h2 {
+  color: LightSkyBlue;
 }
 p {
   color: LightSeaGreen;
 }
 
-.myFam {
+.myDiv {
   background-color: SeaShell;
-  border: 15px solid SeaGreen;
+  border: 5px solid SeaGreen;
+  padding: 15px;
+  text-align: center;
+  h2 {
+    color: MediumVioletRed;
+  }
+  img {
+    float: right;
+    margin: 10px;
+  }
+  p {
+    color: PaleVioletRed;
+    text-align: justify;
+  }
+}
+
+#link {
+  a:link {
+    color: LightPink;
+  }
+  
+  a:hover {
+    color: HotPink;
+  }
+  
+  a:active {
+    color: LavenderBlush;
+  }
+  
+  a:visited {
+    color: IndianRed;
+  }
 }
